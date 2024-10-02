@@ -18,8 +18,12 @@ pygame.init()
 SCREEN_WIDHT, SCREN_HEIGHT = 1280, 720
 screen = pygame.display.set_mode((SCREEN_WIDHT, SCREN_HEIGHT))
 pygame.display.set_caption("Ciclo Tappo")
-icona = pygame.image.load()
-pygame.display.set_icon(icona)
+#icona = pygame.image.load()
+#pygame.display.set_icon(icona)
+
+
+
+
 clock = pygame.time.Clock()
 running = True
 
